@@ -1,7 +1,5 @@
-from 
+import output
 
-import multiply_numbers
-
-result = devprocess.multiply_numbers(6, 6)
+result = output.multiply_numbers(6, 6)
 
 print(result)
