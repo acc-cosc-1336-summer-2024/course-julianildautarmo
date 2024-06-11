@@ -22,7 +22,7 @@ def sum_of_powers_for(num):
     for y in range(0, num):
         sum = sum + (y+1)**2
 
-    return sum'''
+    return sum
 
 def while_nested_loop(num):
     i=0
@@ -32,4 +32,17 @@ def while_nested_loop(num):
         while(j<num):
             print("\t inner", str(j))
             j+=1
-        i+=1
+        i+=1'''
+
+
+def while_x_table(row,col):
+    r=0
+    while(r<row):
+        c=0
+        while(c<col):
+            product = (r+1)*(c+1)
+            print(str(product).rjust(3," "),end=" ")
+            c+=1
+        r+=1
+        print(" ")
+    print("done")

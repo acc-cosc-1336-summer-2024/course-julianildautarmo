@@ -1,3 +1,3 @@
 import repetition
 
-repetition.while_nested_loop(3)
+repetition.while_x_table(100,100)
