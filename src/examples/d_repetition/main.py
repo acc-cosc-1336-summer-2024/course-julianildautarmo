@@ -1,3 +1,3 @@
 import repetition
 
-repetition.sum_of_powers(3)
+repetition.while_nested_loop(3)
