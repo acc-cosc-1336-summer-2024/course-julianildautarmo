@@ -32,7 +32,7 @@ def while_nested_loop(num):
         while(j<num):
             print("\t inner", str(j))
             j+=1
-        i+=1'''
+        i+=1
 
 
 def while_x_table(row,col):
@@ -45,4 +45,25 @@ def while_x_table(row,col):
             c+=1
         r+=1
         print(" ")
-    print("done")
+    print("for done")
+
+def for_nested_loop(num):
+    for i in range(0,num):
+        print("outer")
+
+        for j in range(0,num):
+            print("\t inner", str(j))
+            i+=1
+        j+=1
+        print(" ")
+    print("done")'''
+
+def for_x_table(row,col):
+    for r in range(0,row):
+
+        for c in range(0,col):
+            product = (r+1)*(c+1)
+            print(str(product).rjust(3," "),end=" ")
+
+        print(" ")
+        print("while done")
