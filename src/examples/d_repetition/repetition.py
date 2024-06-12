@@ -1,7 +1,8 @@
 def test_config():
     return True
 
-'''#sum of powers(3) = 1**1 + 2**2 + 3**3 = 14
+'''
+#sum of powers(3) = 1**1 + 2**2 + 3**3 = 14
 def sum_of_powers(num): #define program
     sum = 0 #set sum initial to 0
     i = 0 #set index initial to 0
@@ -56,7 +57,7 @@ def for_nested_loop(num):
             i+=1
         j+=1
         print(" ")
-    print("done")'''
+    print("done")
 
 def for_x_table(row,col):
     for r in range(0,row):
@@ -67,3 +68,36 @@ def for_x_table(row,col):
 
         print(" ")
     print("while done")
+
+def display_menu():
+    print ("1: Option 1")
+    print("2: Option 2")
+    print("3: Exit")
+    
+def run_menu():
+
+    option = "x"
+
+    while(option != "3"):
+        display_menu()
+        option = input("Enter your option: ")
+        handle_menu_option(option)
+
+def handle_menu_option(option):
+    
+    if(option == "1"):
+        option_1()
+
+    elif(option == "2"):
+        option_2()
+    elif(option == "3"):
+        print("\t \tExitting...")
+    else:
+        print("\t \tInvalid Input Headass \t ")
+
+def option_1():
+    print("epic")
+
+def option_2():
+    print("cool")
+'''
