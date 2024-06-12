@@ -66,4 +66,4 @@ def for_x_table(row,col):
             print(str(product).rjust(3," "),end=" ")
 
         print(" ")
-        print("while done")
+    print("while done")
