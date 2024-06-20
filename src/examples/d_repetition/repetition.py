@@ -1,7 +1,7 @@
 def test_config():
     return True
 
-'''
+
 #sum of powers(3) = 1**1 + 2**2 + 3**3 = 14
 def sum_of_powers(num): #define program
     sum = 0 #set sum initial to 0
@@ -91,13 +91,13 @@ def handle_menu_option(option):
     elif(option == "2"):
         option_2()
     elif(option == "3"):
-        print("\t \tExitting...")
+        print("\t \tExiting...")
     else:
-        print("\t \tInvalid Input Headass \t ")
+        print("\t \tInvalid Input Man \t ")
 
 def option_1():
     print("epic")
 
 def option_2():
     print("cool")
-'''
+
