@@ -1,1 +1,2 @@
-#
+import strings
+strings.menu()
