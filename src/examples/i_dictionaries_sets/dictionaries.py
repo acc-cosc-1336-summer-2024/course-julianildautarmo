@@ -47,3 +47,16 @@ def loop_thru_dic():
             print(keys,values)
 
         
+def base_and_bask():
+     baseball = set(['John','Mark','Barry','Max'])
+     basketball = set(['Greg','Sean','Mark','Max'])
+
+     sports = baseball.union(basketball)
+     both = baseball.intersection(basketball)
+     only_base = baseball.difference(basketball)
+     only_bask = basketball.difference(baseball)
+
+     print('play either ',str(sports))
+     print('play both',str(both))
+     print('only baseball', str(only_base))
+     print('only basketball', str(only_bask))
